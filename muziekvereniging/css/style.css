@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+footer{
+	position: fixed;
+	float: bottom;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgrey;
+	padding: 10px;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -26,15 +53,61 @@
 
 .main-body {
     display: flex;
-    flex-direction: row;
-
+	justify-content: space-around;
 }
 
-.main-body .sub-body {
+.item {
+	flex-direction: row;
     background-color: #484848;
-    width: 200px;
     color: white;
-    height: 200px;
     margin: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.split-item {
+	width: 400px;
+	color: white;
+}
+
+.big {
+	min-width: 400px;
+	min-height: 400px;
+}
+
+.slim {
+	min-width: 300px;
+	min-height: 400px;
+}
+
+.top {
+	align-content: flex-start;
+	height: 200px;
+}
+
+.bottom {
+	align-content: flex-end;
+	height: 200px;
+}
+
+/* EINDE eigen code */
+
+.form-group{
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.form-group label{
+	display: inline-block;
+	width: 150px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.form-group input[type=text], .form-group textarea{
+	width: 300px;
+}
+
+.form-group input[type=submit]{
+	padding: 10px;
+	cursor: pointer;
 }
