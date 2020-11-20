@@ -17,8 +17,7 @@
 			<div class="item"><img src="img/home-2-leerorkest.jpg" alt="leerorkest"><span>Leerorkest</span></div>
 			<div class="split-item">
 				<div class="item"><img src="img/home-3-speelgroep.jpg" alt="speelgroep"><span>Speelgroep</span></div>
-				<div class="item"><img src="img/home-4-bultseherrie.jpg" alt="bulseherrie"><span>Bultseherrie</span>
-				</div>
+				<div class="item"><img src="img/home-4-bultseherrie.jpg" alt="bulseherrie"><span>Bultseherrie</span></div>
 			</div>
 		</div>
 	</div>
