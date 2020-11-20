@@ -108,6 +108,19 @@ footer {
     height: 200px;
 }
 
+.info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin-left: 5px;
+    padding: 2px;
+}
+.info h3 {
+    text-align: center;
+
+}
 /* EINDE eigen code */
 
 .form-group {
@@ -130,3 +143,4 @@ footer {
     padding: 10px;
     cursor: pointer;
 }
+
